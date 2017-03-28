@@ -1,0 +1,44 @@
+.content{
+    text-align: center;
+    border:solid #204d74;
+    background-color: silver;
+  
+}
+.no-margin{
+    margin:0px;
+}
+.myfotter{
+  padding-top:15px;
+  padding-bottom: 0px;
+    color:#fff;
+    background-color: #333;
+    margin-top: 30px;   
+}
+.bottom-footer{
+    border-top: 1px solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    color:#b2dba1;
+    
+}
+.footer-navigation {
+     text-align: right;
+     list-style: none;
+}
+.footer-navigation a:hover{
+    text-decoration: none;
+}
+.footer-navigation li{
+
+       
+        display: inline; 
+        padding :0px 10px;
+}
+.footer-navigation li:before{
+    content: '[';
+    padding:0px 10px;
+}
+.footer-navigation li:after{
+    content: ']';
+        padding:0px 10px;
+}
